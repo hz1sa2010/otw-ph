@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+	
+	<title>32 Lubhang Kapaki-pakinabang na Mga Trick para sa File ng Pag-andar ng WordPress - kaalaman</title>
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	
+	<meta property="og:locale" content="tl_PH" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="32 Lubhang Kapaki-pakinabang na Mga Trick para sa File ng Pag-andar ng WordPress - kaalaman" />
+	<meta property="og:description" content="Ang lahat ng mga tema ng WordPress ay may isang malakas na function.php file. Ang file na ito ay gumaganap bilang isang plugin at nagbibigay-daan sa iyo upang gawin ang maraming mga cool na bagay sa iyong WordPress site. Sa artikulong ito, ipapakita namin sa iyo ang ilan sa mga pinaka-kapaki-pakinabang na mga trick para ... Magbasa nang higit pa 32 Lubhang Kapaki-pakinabang na Mga Trick para sa File ng Pag-andar ng WordPress" />
+	<meta property="og:url" content="https://otw.ph/wordpress/mga-tutorial/32-lubhang-kapaki-pakinabang-na-mga-trick-para-sa-file-ng-pag-andar-ng-wordpress/" />
+	<meta property="og:site_name" content="kaalaman" />
+	<meta property="article:published_time" content="2018-01-10T10:23:06+00:00" />
+	<meta property="og:image" content="https://otw.ph/wp-content/uploads/2018/01/59eae0785f1882d0662b64aeb8ea81be.jpeg" />
+	<meta property="og:image:width" content="640" />
+	<meta property="og:image:height" content="360" />
+	<meta name="twitter:card" content="summary_large_image" />
+
+<style id='xena-style-inline-css'>
+a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,iframe,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul,var{border:0;margin:0;padding:0}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,main,nav,section{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,td,th{font-weight:400;text-align:left;padding:5px}blockquote:after,blockquote:before,q:after,q:before{content:""}a{background-color:transparent}a img{border:0}.clearfix:after,.clearfix:before,.grid-100:after,.grid-100:before,.grid-15:after,.grid-15:before,.grid-20:after,.grid-20:before,.grid-25:after,.grid-25:before,.grid-30:after,.grid-30:before,.grid-33:after,.grid-33:before,.grid-35:after,.grid-35:before,.grid-40:after,.grid-40:before,.grid-45:after,.grid-45:before,.grid-50:after,.grid-50:before,.grid-55:after,.grid-55:before,.grid-60:after,.grid-60:before,.grid-65:after,.grid-65:before,.grid-66:after,.grid-66:before,.grid-70:after,.grid-70:before,.grid-75:after,.grid-75:before,.grid-80:after,.grid-80:before,.grid-85:after,.grid-85:before,.grid-container:after,.grid-container:before,[class*=mobile-grid-]:after,[class*=mobile-grid-]:before,[class*=tablet-grid-]:after,[class*=tablet-grid-]:before{content:".";display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}.clearfix:after,.grid-100:after,.grid-15:after,.grid-20:after,.grid-25:after,.grid-30:after,.grid-33:after,.grid-35:after,.grid-40:after,.grid-45:after,.grid-50:after,.grid-55:after,.grid-60:after,.grid-65:after,.grid-66:after,.grid-70:after,.grid-75:after,.grid-80:after,.grid-85:after,.grid-90:after,.grid-95:after,.grid-container:after,[class*=mobile-grid-]:after,[class*=tablet-grid-]:after{clear:both}.grid-container{margin-left:auto;margin-right:auto;max-width:1200px;padding-left:10px;padding-right:10px}.grid-100,.grid-15,.grid-20,.grid-25,.grid-30,.grid-33,.grid-35,.grid-40,.grid-45,.grid-50,.grid-55,.grid-60,.grid-65,.grid-66,.grid-70,.grid-75,.grid-80,.grid-85,.grid-90,.grid-95,[class*=mobile-grid-],[class*=tablet-grid-]{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:10px;padding-right:10px}.grid-parent{padding-left:0;padding-right:0}@media (max-width:767px){.hide-on-mobile{display:none!important}.mobile-grid-50{float:left;width:50%}.mobile-grid-100{clear:both;width:100%}}@media (min-width:768px) and (max-width:1024px){[class*=tablet-pull-],[class*=tablet-push-]{position:relative}.hide-on-tablet{display:none!important}.tablet-grid-15{float:left;width:15%}.tablet-push-15{left:15%}.tablet-pull-15{left:-15%}.tablet-grid-20{float:left;width:20%}.tablet-push-20{left:20%}.tablet-pull-20{left:-20%}.tablet-grid-25{float:left;width:25%}.tablet-push-25{left:25%}.tablet-pull-25{left:-25%}.tablet-grid-30{float:left;width:30%}.tablet-push-30{left:30%}.tablet-pull-30{left:-30%}.tablet-grid-35{float:left;width:35%}.tablet-push-35{left:35%}.tablet-pull-35{left:-35%}.tablet-grid-40{float:left;width:40%}.tablet-push-40{left:40%}.tablet-pull-40{left:-40%}.tablet-grid-45{float:left;width:45%}.tablet-push-45{left:45%}.tablet-pull-45{left:-45%}.tablet-grid-50{float:left;width:50%}.tablet-push-50{left:50%}.tablet-pull-50{left:-50%}.tablet-grid-55{float:left;width:55%}.tablet-push-55{left:55%}.tablet-pull-55{left:-55%}.tablet-grid-60{float:left;width:60%}.tablet-push-60{left:60%}.tablet-pull-60{left:-60%}.tablet-grid-65{float:left;width:65%}.tablet-push-65{left:65%}.tablet-pull-65{left:-65%}.tablet-grid-70{float:left;width:70%}.tablet-push-70{left:70%}.tablet-pull-70{left:-70%}.tablet-grid-75{float:left;width:75%}.tablet-push-75{left:75%}.tablet-pull-75{left:-75%}.tablet-grid-80{float:left;width:80%}.tablet-push-80{left:80%}.tablet-pull-80{left:-80%}.tablet-grid-85{float:left;width:85%}.tablet-push-85{left:85%}.tablet-pull-85{left:-85%}.tablet-suffix-33{margin-right:33.33333%}.tablet-push-33{left:33.33333%}.tablet-pull-33{left:-33.33333%}.tablet-grid-66{float:left;width:66.66667%}.tablet-push-66{left:66.66667%}.tablet-pull-66{left:-66.66667%}.tablet-grid-100{clear:both;width:100%}.inside-footer-widgets>div{margin-bottom:50px}.inside-footer-widgets>div:nth-child(odd){clear:both}.active-footer-widgets-1 .footer-widget-1,.active-footer-widgets-3 .footer-widget-3,.active-footer-widgets-5 .footer-widget-5{width:100%;margin-bottom:0}.active-footer-widgets-2 .inside-footer-widgets>div,.active-footer-widgets-4 .footer-widget-3,.active-footer-widgets-4 .footer-widget-4{margin-bottom:0}}@media (min-width:1025px){.pull-15,.pull-20,.pull-25,.pull-30,.pull-33,.pull-35,.pull-40,.pull-45,.pull-50,.pull-55,.pull-60,.pull-65,.pull-66,.pull-70,.pull-75,.pull-80,.pull-85,.pull-90,.pull-95,.push-15,.push-20,.push-25,.push-30,.push-33,.push-35,.push-40,.push-45,.push-50,.push-55,.push-60,.push-65,.push-66,.push-70,.push-75,.push-80,.push-85,.push-90,.push-95{position:relative}.hide-on-desktop{display:none!important}.grid-15{float:left;width:15%}.push-15{left:15%}.pull-15{left:-15%}.grid-20{float:left;width:20%}.push-20{left:20%}.pull-20{left:-20%}.grid-25{float:left;width:25%}.push-25{left:25%}.pull-25{left:-25%}.grid-30{float:left;width:30%}.push-30{left:30%}.pull-30{left:-30%}.grid-35{float:left;width:35%}.push-35{left:35%}.pull-35{left:-35%}.grid-40{float:left;width:40%}.push-40{left:40%}.pull-40{left:-40%}.grid-45{float:left;width:45%}.push-45{left:45%}.pull-45{left:-45%}.grid-50{float:left;width:50%}.push-50{left:50%}.pull-50{left:-50%}.grid-55{float:left;width:55%}.push-55{left:55%}.pull-55{left:-55%}.grid-60{float:left;width:60%}.push-60{left:60%}.pull-60{left:-60%}.grid-65{float:left;width:65%}.push-65{left:65%}.pull-65{left:-65%}.grid-70{float:left;width:70%}.push-70{left:70%}.pull-70{left:-70%}.grid-75{float:left;width:75%}.push-75{left:75%}.pull-75{left:-75%}.grid-80{float:left;width:80%}.push-80{left:80%}.pull-80{left:-80%}.grid-85{float:left;width:85%}.push-85{left:85%}.pull-85{left:-85%}.grid-33{float:left;width:33.33333%}.push-33{left:33.33333%}.pull-33{left:-33.33333%}.grid-66{float:left;width:66.66667%}.push-66{left:66.66667%}.pull-66{left:-66.66667%}.grid-100{clear:both;width:100%}}body,button,input,select,textarea{font-family:"Open Sans",sans-serif;font-weight:400;text-transform:none;font-size:18px;line-height:2;letter-spacing:.03em}p{margin-bottom:1.5em}h1,h2,h3,h4,h5,h6{font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit}pre{background:rgba(0,0,0,.05);font-family:inherit;font-size:inherit;line-height:normal;margin-bottom:1.5em;padding:20px;overflow:auto;max-width:100%}blockquote{border-left:5px solid rgba(0,0,0,.05);padding:20px;font-size:1.2em;font-style:italic;margin:0 0 1.5em;position:relative}blockquote p:last-child{margin:0}table,td,th{border:1px solid rgba(0,0,0,.1)}table{border-collapse:separate;border-spacing:0;border-width:1px 0 0 1px;margin:0 0 1.5em;width:100%}td,th{padding:8px}th{border-width:0 1px 1px 0}td{border-width:0 1px 1px 0}hr{background-color:rgba(0,0,0,.1);border:0;height:1px;margin-bottom:40px;margin-top:40px}fieldset{padding:0;border:0;min-width:inherit}fieldset legend{padding:0;margin-bottom:1.5em}h1{font-size:36px;margin-bottom:15px;line-height:1.25em;font-weight:700;text-transform:none}h2{font-size:34px;margin-bottom:15px;line-height:1.25em;font-weight:700;text-transform:none}h3{font-size:32px;margin-bottom:15px;line-height:1.25em;font-weight:600;text-transform:none}h4{font-size:28px;line-height:1.25em;font-weight:600;text-transform:none}h5{font-size:16px;line-height:1.25em;letter-spacing:.1em;font-weight:700;text-transform:none}h6{font-size:16px;line-height:1.25em;letter-spacing:.03em;font-weight:700;text-transform:none}h4,h5,h6{margin-bottom:15px}ol,ul{margin:0 0 1.5em 3em}ul{list-style:disc}ol{list-style:decimal}li>ol,li>ul{margin-bottom:0;margin-left:1.5em}dt{font-weight:700}dd{margin:0 1.5em 1.5em}b,strong{font-weight:700}cite,dfn,em,i{font-style:italic}address{margin:0 0 1.5em}code,kbd,tt,var{font:15px Monaco,Consolas,"Andale Mono","DejaVu Sans Mono",monospace}abbr,acronym{border-bottom:1px dotted #666;cursor:help}ins,mark{text-decoration:none}sub,sup{font-size:75%;height:0;line-height:0;position:relative;vertical-align:baseline}sup{bottom:1ex}sub{top:.5ex}small{font-size:75%}big{font-size:125%}figure{margin:0}table{margin:0 0 1.5em;width:100%}th{font-weight:700}img{height:auto;max-width:100%}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline}button,html input[type=button],input[type=reset],input[type=submit]{border:1px solid transparent;background:#666;cursor:pointer;-webkit-appearance:button;padding:10px 20px;color:#fff}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input[type=email],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=url],select,textarea{background:#fafafa;color:#666;border:1px solid #ccc;border-radius:0;-webkit-border-radius:0;-webkit-appearance:none;padding:10px 15px;box-sizing:border-box;max-width:100%}textarea{overflow:auto;vertical-align:top;width:100%}input[type=file]{max-width:100%;box-sizing:border-box}a,button,input{transition:color .1s ease-in-out,background-color .1s ease-in-out}a,a:focus,a:hover,a:visited{text-decoration:none}.button,.wp-block-button .wp-block-button__link{padding:10px 20px;display:inline-block}.wp-block-button .wp-block-button__link{font-size:inherit;line-height:inherit}.using-mouse :focus{outline:0}.using-mouse ::-moz-focus-inner{border:0}.alignleft{display:inline;float:left;margin-right:1.5em}.alignright{display:inline;float:right;margin-left:1.5em}.aligncenter{clear:both;display:block;margin:0 auto}.size-auto,.size-full,.size-large,.size-medium,.size-thumbnail{max-width:100%;height:auto}.no-sidebar .entry-content .alignfull{max-width:100vw;width:auto}.screen-reader-shortcut,.screen-reader-text,.screen-reader-text span{position:absolute!important;clip:rect(0,0,0,0);height:1px;width:1px;border:0;overflow:hidden}.screen-reader-shortcut:focus,.screen-reader-text:focus{clip:auto!important;height:auto;width:auto;display:block;font-size:1em;font-weight:700;padding:15px 23px 14px;color:#333;background:#fff;z-index:100000;text-decoration:none;box-shadow:0 0 2px 2px rgba(0,0,0,.6)}.clear:after,.comment-content:after,.entry-content:after,.inside-footer-widgets:not(.grid-container):after,.inside-header:not(.grid-container):after,.inside-navigation:not(.grid-container):after,.inside-top-bar:not(.grid-container):after,.page-header-content-container:after,.paging-navigation:after,.site-content:after,.site-footer:after,.site-header:after,.site-info:after{content:"";display:table;clear:both}.main-navigation{z-index:100;padding:0;clear:both;display:block}.inside-navigation{position:relative}.main-navigation a{display:block;text-decoration:none;font-weight:600;text-transform:uppercase;font-size:16px}.main-navigation ul li a{display:block}.main-navigation li{float:left;position:relative}.main-navigation ul{list-style:none;margin:0;padding-left:0}.sf-menu>li.menu-item-float-right{float:right!important}.main-navigation .main-nav ul li a{padding-left:20px;padding-right:20px;line-height:60px}.menu-toggle,.mobile-bar-items,.sidebar-nav-mobile{display:none}.menu-toggle{padding:0 20px;line-height:60px;margin:0;font-weight:400;text-transform:none;font-size:15px;cursor:pointer}.main-navigation .mobile-bar-items a{padding-left:20px;padding-right:20px;line-height:60px}.search-item a:before{width:1.28571429em;text-align:center;display:inline-block}.search-item .screen-reader-text{top:0;right:0;left:auto;margin:0}.main-navigation li.search-item{float:right;z-index:21}li.search-item.active{transition:opacity .1s ease-in-out}.navigation-search{position:absolute;left:-99999px;pointer-events:none;visibility:hidden;z-index:20;width:100%;top:0;transition:opacity .1s ease-in-out;opacity:0}.navigation-search.nav-search-active{left:0;right:0;pointer-events:auto;visibility:visible;opacity:1}.gen-sidebar-nav .navigation-search{top:auto;bottom:0}.navigation-search input{outline:0;border:0;vertical-align:bottom;line-height:0;opacity:.9;width:100%;z-index:20;border-radius:0;-webkit-appearance:none}.navigation-search input::-ms-clear{display:none;width:0;height:0}.navigation-search input::-ms-reveal{display:none;width:0;height:0}.navigation-search input::-webkit-search-cancel-button,.navigation-search input::-webkit-search-decoration,.navigation-search input::-webkit-search-results-button,.navigation-search input::-webkit-search-results-decoration{display:none}.nav-left-sidebar .main-navigation li.search-item.active,.nav-right-sidebar .main-navigation li.search-item.active{width:auto;display:inline-block;float:right}.navigation-search input{height:60px}.main-navigation ul ul{display:block;float:left;position:absolute;left:-99999px;opacity:0;z-index:99999;width:200px;text-align:left;top:auto;transition:opacity 80ms linear;transition-delay:0s;pointer-events:none;height:0;overflow:hidden}.main-navigation ul ul a{display:block}.main-navigation ul ul li{width:100%}.main-navigation .main-nav ul ul li a{line-height:normal;padding:10px 20px;font-size:14px}.main-navigation.sub-menu-left .sub-menu{right:0}.dropdown-hover .main-navigation:not(.toggled) ul li.sfHover>ul,.dropdown-hover .main-navigation:not(.toggled) ul li:hover>ul{left:auto;opacity:1;transition-delay:.1s;pointer-events:auto;height:auto;overflow:visible;box-shadow:0 0 15px -3px rgba(0,0,0,.15)}.dropdown-hover .main-navigation:not(.toggled) ul ul li.sfHover>ul,.dropdown-hover .main-navigation:not(.toggled) ul ul li:hover>ul{left:100%;top:0}.dropdown-hover .main-navigation.sub-menu-left:not(.toggled) ul ul li.sfHover>ul,.dropdown-hover .main-navigation.sub-menu-left:not(.toggled) ul ul li:hover>ul{right:100%;left:auto}.dropdown-click .main-navigation ul ul{visibility:hidden}.dropdown-click .main-navigation ul li.sfHover>ul.toggled-on,.dropdown-click .main-navigation ul.toggled-on{left:auto;opacity:1;visibility:visible;pointer-events:auto;height:auto;overflow:visible}.dropdown-click nav ul ul ul{background-color:transparent}.main-navigation .main-nav ul ul li a{line-height:normal}.nav-float-right .main-navigation ul ul ul{top:0}.main-navigation .main-nav ul li.menu-item-has-children>a{padding-right:0;position:relative}.menu-item-has-children .dropdown-menu-toggle{display:inline-block;height:100%;clear:both;padding-right:20px;padding-left:10px}.menu-item-has-children ul .dropdown-menu-toggle{padding-top:10px;padding-bottom:10px;margin-top:-10px}.sidebar .menu-item-has-children .dropdown-menu-toggle,nav ul ul .menu-item-has-children .dropdown-menu-toggle{float:right}.dropdown-menu-toggle:before{display:inline-block;width:.8em;text-align:left}nav:not(.toggled) ul ul .dropdown-menu-toggle:before{text-align:right}.dropdown-hover .sub-menu-left:not(.toggled) ul ul .dropdown-menu-toggle:before{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.dropdown-click .main-navigation ul ul ul.toggled-on{left:0;top:auto;position:relative}.widget-area .main-navigation li{float:none;display:block;width:100%;padding:0;margin:0}.dropdown-hover .widget-area .main-navigation ul li.sfHover>ul,.dropdown-hover .widget-area .main-navigation ul li:hover ul,.dropdown-hover.both-left .widget-area .inside-right-sidebar .main-navigation ul li.sfHover ul,.dropdown-hover.both-left .widget-area .inside-right-sidebar .main-navigation ul li:hover ul{top:0;left:100%}.dropdown-hover .widget-area .inside-right-sidebar .main-navigation ul li.sfHover ul,.dropdown-hover .widget-area .inside-right-sidebar .main-navigation ul li:hover ul,.dropdown-hover.both-right .widget-area .main-navigation ul li.sfHover ul,.dropdown-hover.both-right .widget-area .main-navigation ul li:hover ul{right:100%;left:auto}.dropdown-click .widget-area .main-navigation ul ul{top:auto;position:absolute;float:none;width:100%;left:-99999px}.dropdown-click .widget-area .main-navigation ul ul.toggled-on{position:relative;left:0;right:0}.nav-float-right .inside-header .main-navigation{float:right;clear:right}.nav-float-left .inside-header .main-navigation{float:left;clear:left}.nav-aligned-center .main-navigation .menu>li,.nav-aligned-right .main-navigation .menu>li{float:none;display:inline-block}.nav-aligned-center .main-navigation ul,.nav-aligned-right .main-navigation ul{letter-spacing:-.31em;font-size:1em}.nav-aligned-center .main-navigation ul li,.nav-aligned-right .main-navigation ul li{letter-spacing:normal}.nav-aligned-center .main-navigation{text-align:center}.nav-aligned-right .main-navigation{text-align:right}.site-main .comment-navigation,.site-main .post-navigation,.site-main .posts-navigation{margin:0 0 2em;overflow:hidden}.paging-navigation .nav-next,.paging-navigation .nav-previous{display:none}.site-main .post-navigation{margin-bottom:0}.site-header{position:relative}.inside-header{padding:40px}.main-title{margin:0;font-size:45px;line-height:1.2em;word-wrap:break-word;font-weight:700;text-transform:none}.site-description{margin:0;line-height:1.5;font-weight:400;text-transform:none;font-size:15px}.site-logo{display:inline-block;max-width:100%}.header-aligned-center .site-header{text-align:center}.header-aligned-right .site-header{text-align:right}.site-header .header-image{vertical-align:middle}.header-widget{float:right;overflow:hidden;max-width:50%}.header-widget .widget{padding:0 0 20px;margin-bottom:0}.header-widget .widget:last-child{padding-bottom:0}.nav-float-right .header-widget .widget{padding:0 0 10px}.nav-float-right .header-widget{position:relative;top:-10px}.nav-float-left .inside-header .site-branding,.nav-float-left .inside-header .site-logo{float:right;clear:right}.nav-float-left .inside-header:after{clear:both;content:'';display:table}.nav-float-right .inside-header .site-branding{display:inline-block}.header-widget .widget-title{margin-bottom:15px}.site-branding-container{display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:left}.site-branding-container{display:-webkit-inline-box}.site-branding-container .site-logo{margin-right:1.5em}.header-aligned-right .site-branding-container{text-align:right}.header-aligned-right .site-branding-container .site-logo{-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10;margin-right:0;margin-left:1.5em}.post{margin:0 0 1em}.entry-header .cat-links:before,.entry-header .comments-link:before,.entry-header .tags-links:before,.entry-header .xena-icon,.posted-on .updated{display:none}.byline,.entry-header .cat-links,.entry-header .comments-link,.entry-header .tags-links,.group-blog .byline,.single .byline{display:inline}footer.entry-meta .byline,footer.entry-meta .posted-on{display:block}.entry-content,.entry-summary,.page-content{margin:2em 0 0}.page-links{clear:both;margin:0 0 1.5em}.archive .format-aside .entry-header,.archive .format-status .entry-header,.archive .format-status .entry-meta,.archive .format-status .entry-title,.blog .format-aside .entry-header,.blog .format-status .entry-header,.blog .format-status .entry-meta,.blog .format-status .entry-title{display:none}.archive .format-aside .entry-content,.archive .format-status .entry-content,.blog .format-aside .entry-content,.blog .format-status .entry-content{margin-top:0}.archive .format-status .entry-content p:last-child,.blog .format-status .entry-content p:last-child{margin-bottom:0}.entry-header,.site-content{word-wrap:break-word;margin-bottom:1em}.entry-title{margin-bottom:0}.page-header{margin-bottom:30px}.page-header .avatar{float:left;margin-right:20px}.page-header .author-info{overflow:hidden}.page-header .author-info>:last-child,.page-header>:last-child{margin-bottom:0}.entry-meta{font-size:85%;margin-top:.5em;line-height:1.5}footer.entry-meta{margin-top:2em}.cat-links:before,.comments-link:before,.nav-next .next:before,.nav-previous .prev:before,.tags-links:before{text-decoration:inherit;position:relative;margin-right:.6em;width:13px;text-align:center;display:inline-block}.cat-links,.comments-link,.tags-links{display:block}.entry-content>:last-child,.entry-summary>:last-child,.page-content>:last-child,.read-more-container,.taxonomy-description p:last-child{margin-bottom:0}.comment-content img.wp-smiley,.entry-content img.wp-smiley,.page-content img.wp-smiley{border:none;margin-bottom:0;margin-top:0;padding:0}.wp-caption{margin-bottom:1.5em;max-width:100%;position:relative}.wp-caption img[class*=wp-image-]{display:block;margin:0 auto 0;max-width:100%}.wp-caption .wp-caption-text{font-size:75%;padding-top:5px;opacity:.8}.wp-caption img{position:relative;vertical-align:bottom}.widget-area .widget{padding:40px}.widget{margin:0 0 60px;box-sizing:border-box}.elementor-widget-sidebar .widget,.sidebar .widget{text-align:center}.elementor-widget-sidebar .widget,.footer-widgets .widget,.header-widget .widget,.sidebar .widget{font-size:15px}.widget select{max-width:100%}.widget_search .search-submit{display:none}.widget_categories .children{margin-left:1.5em;padding-top:5px}.widget_categories .children li:last-child{padding-bottom:0}.elementor-widget-sidebar .widget :last-child,.footer-widgets .widget :last-child,.sidebar .widget :last-child{margin-bottom:0}.widget-title{margin-bottom:30px;font-size:18px;line-height:1.25;font-weight:700;text-transform:uppercase}.widget ol,.widget ul{margin:0}.widget ul li{list-style-type:none;position:relative;padding-bottom:5px}.widget .search-field{width:100%}.separate-containers .widget:last-child,.widget:last-child{margin-bottom:0}.widget_nav_menu ul ul,.widget_pages ul ul{margin-left:1em;margin-top:5px}.widget ul li.menu-item-has-children,.widget ul li.page_item_has_children{padding-bottom:0}#wp-calendar{table-layout:fixed;font-size:80%}#wp-calendar #prev,#wp-calendar #prev+.pad{border-right:0}.sidebar .grid-container{max-width:100%;width:100%}hr.xena-divider{margin:40px auto!important;width:80%!important}.one-container.both-left .inside-left-sidebar,.one-container.both-right .inside-left-sidebar{margin-right:15px}.one-container.both-left .inside-right-sidebar,.one-container.both-right .inside-right-sidebar{margin-left:15px}.one-container .site-main>:last-child,.separate-containers .site-main>:last-child{margin-bottom:0}.one-container:not(.page) .inside-article{padding:0 0 30px 0}.one-container.both-right .site-main,.one-container.right-sidebar .site-main{margin-right:40px}.one-container.both-left .site-main,.one-container.left-sidebar .site-main{margin-left:40px}.one-container.both-sidebars .site-main{margin:0 40px 0 40px}.inside-header,.one-container .site-content,.separate-containers .comments-area,.separate-containers .inside-article,.separate-containers .page-header,.separate-containers .paging-navigation,.wp-block-group__inner-container{padding:40px}.separate-containers .page-header,.separate-containers .site-main>*,.separate-containers .widget,.widget-area .main-navigation{margin-bottom:20px}.separate-containers .site-main{margin:20px}.no-sidebar.separate-containers .site-main{margin-left:0;margin-right:0}.both-right.separate-containers .site-main,.right-sidebar.separate-containers .site-main{margin-left:0}.both-left.separate-containers .site-main,.left-sidebar.separate-containers .site-main{margin-right:0}.both-left.separate-containers .inside-left-sidebar,.both-right.separate-containers .inside-left-sidebar{margin-right:10px}.both-left.separate-containers .inside-right-sidebar,.both-right.separate-containers .inside-right-sidebar{margin-left:10px}.separate-containers .inside-left-sidebar,.separate-containers .inside-right-sidebar{margin-top:20px;margin-bottom:20px}.separate-containers .page-header-contained,.separate-containers .page-header-content-single,.separate-containers .page-header-image,.separate-containers .page-header-image-single{margin-top:20px;text-align:center}.full-width-content .container.grid-container{max-width:100%}.full-width-content.no-sidebar.separate-containers .site-main{margin:0}.full-width-content.one-container .site-content,.full-width-content.separate-containers .inside-article{padding:0}.contained-content.one-container .site-content,.contained-content.separate-containers .inside-article{padding:0}.footer-widgets{padding:40px}.site-info{text-align:center;padding:20px;font-size:15px}.site-footer .footer-widgets-container .inner-padding{padding:0 0 0 40px;text-align:center}.site-footer .footer-widgets-container .inside-footer-widgets{margin-left:-40px}.footer-bar-active .footer-bar .widget{padding:0}.footer-bar .widget_nav_menu>div>ul{display:inline-block;vertical-align:top}.footer-bar .textwidget p:last-child{margin:0}.footer-bar-align-right .copyright-bar{float:left}.footer-bar-align-left .copyright-bar,.footer-bar-align-right .footer-bar{float:right;text-align:right}.footer-bar-align-left .footer-bar{float:left;text-align:left}.footer-bar-align-center .copyright-bar{float:none;text-align:center}.footer-bar-align-center .footer-bar{float:none;text-align:center;margin-bottom:10px}.footer-bar .widget-title{display:none}.footer-bar .widget_nav_menu li{margin:0 10px;float:left;padding:0}.footer-bar .widget_nav_menu li:first-child{margin-left:0}.footer-bar .widget_nav_menu li:last-child{margin-right:0}.footer-bar .widget_nav_menu li ul{display:none}.post-image{margin:2em 0 0}.page-header-image,.page-header-image-single{line-height:0;text-align:center}.separate-containers .page-header-content,.separate-containers .page-header-image{margin-top:30px}.one-container .inside-article>[class*=page-header-],.separate-containers .inside-article>[class*=page-header-]{margin-bottom:2em;margin-top:0}.inside-article .page-header-image-single.page-header-below-title{margin-top:2em}.post-image-above-header .inside-article .featured-image,.post-image-above-header .inside-article .post-image{margin-top:0;margin-bottom:2em}.post-image-aligned-left .inside-article .featured-image,.post-image-aligned-left .inside-article .post-image{margin-top:0;margin-right:2em;float:left;text-align:left}.post-image-aligned-center .featured-image,.post-image-aligned-center .post-image{text-align:center}.post-image-aligned-right .inside-article .featured-image,.post-image-aligned-right .inside-article .post-image{margin-top:0;margin-left:2em;float:right;text-align:right}.post-image-below-header.post-image-aligned-center .inside-article .featured-image,.post-image-below-header.post-image-aligned-left .inside-article .featured-image,.post-image-below-header.post-image-aligned-left .inside-article .post-image,.post-image-below-header.post-image-aligned-right .inside-article .featured-image,.post-image-below-header.post-image-aligned-right .inside-article .post-image{margin-top:2em}.post-image-aligned-left>.featured-image,.post-image-aligned-right>.featured-image{float:none;margin-left:auto;margin-right:auto}.post-image-aligned-left .featured-image{text-align:left}.post-image-aligned-right .featured-image{text-align:right}.post-image-aligned-left .inside-article:after,.post-image-aligned-left .inside-article:before,.post-image-aligned-right .inside-article:after,.post-image-aligned-right .inside-article:before{content:"";display:table}.post-image-aligned-left .inside-article:after,.post-image-aligned-right .inside-article:after{clear:both}.post-image-aligned-left .inside-article,.post-image-aligned-right .inside-article{zoom:1}.one-container.both-right.post-image-aligned-center .no-featured-image-padding .featured-image,.one-container.both-right.post-image-aligned-center .no-featured-image-padding .post-image,.one-container.right-sidebar.post-image-aligned-center .no-featured-image-padding .featured-image,.one-container.right-sidebar.post-image-aligned-center .no-featured-image-padding .post-image{margin-right:0}.one-container.both-left.post-image-aligned-center .no-featured-image-padding .featured-image,.one-container.both-left.post-image-aligned-center .no-featured-image-padding .post-image,.one-container.left-sidebar.post-image-aligned-center .no-featured-image-padding .featured-image,.one-container.left-sidebar.post-image-aligned-center .no-featured-image-padding .post-image{margin-left:0}.one-container.both-sidebars.post-image-aligned-center .no-featured-image-padding .featured-image,.one-container.both-sidebars.post-image-aligned-center .no-featured-image-padding .post-image,.one-container.post-image-aligned-center .no-featured-image-padding.xena-columns .featured-image,.one-container.post-image-aligned-center .no-featured-image-padding.xena-columns .post-image{margin-left:0;margin-right:0}.masonry-enabled .page-header{position:relative!important}.separate-containers .site-main>.xena-columns-container{margin-bottom:0}.load-more.are-images-unloaded,.masonry-container.are-images-unloaded,.masonry-enabled #nav-below{opacity:0}.xena-columns-container:not(.masonry-container){display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-align-items:stretch;-ms-flex-align:stretch;align-items:stretch}.xena-columns-container:not(.masonry-container) .xena-columns{display:-webkit-flex;display:-ms-flexbox;display:flex}.xena-columns .inside-article{width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.xena-columns-activated.post-image-aligned-left .xena-columns-container article:not(.featured-column) .post-image,.xena-columns-activated.post-image-aligned-right .xena-columns-container article:not(.featured-column) .post-image{float:none;text-align:center;margin-left:0;margin-right:0}.xena-columns-container .page-header,.xena-columns-container .paging-navigation{-webkit-box-flex:1;-webkit-flex:1 1 100%;-ms-flex:1 1 100%;flex:1 1 100%;clear:both}.xena-columns-container .paging-navigation{margin-bottom:0}.no-sidebar .xena-columns-container .inside-article>*{max-width:none}.load-more:not(.has-svg-icon) .button.loading:before{content:"\e900";display:inline-block;font-family:"GP Premium";speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-animation:spin 2s infinite linear;animation:spin 2s infinite linear;margin-right:7px}.load-more .button:not(.loading) .xena-icon{display:none}.load-more .xena-icon svg{-webkit-animation:spin 2s infinite linear;animation:spin 2s infinite linear;margin-right:7px}@keyframes spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@media (max-width:767px){.xena-columns-activated .xena-columns-container{margin-left:0;margin-right:0}.xena-columns-container>*{padding-left:0}.xena-columns-container .page-header{margin-left:0}}@media (max-width:768px){body:not(.post-image-aligned-center) .featured-image,body:not(.post-image-aligned-center) .inside-article .featured-image,body:not(.post-image-aligned-center) .inside-article .post-image{margin-right:0;margin-left:0;float:none;text-align:center}.load-more{display:block;text-align:center;margin-bottom:0}}.top-bar{font-weight:400;text-transform:none;font-size:13px}.inside-top-bar{padding:10px}.top-bar .inside-top-bar .widget{padding:0;display:inline-block;margin:0}.top-bar .inside-top-bar .textwidget p:last-child{margin:0}.top-bar-align-center{text-align:center}.top-bar-align-right{text-align:right}.top-bar-align-left .inside-top-bar>.widget:nth-child(odd),.top-bar-align-right .inside-top-bar>.widget:nth-child(even){float:left;margin-right:10px}.top-bar-align-center .inside-top-bar .widget:not(:first-child),.top-bar-align-right .inside-top-bar>.widget:nth-child(odd){margin-left:10px}.top-bar-align-left .inside-top-bar>.widget:nth-child(even){margin-left:10px;float:right}.top-bar-align-center .inside-top-bar .widget:first-child:last-child{display:block}.top-bar .widget-title{display:none}.top-bar .widget_nav_menu li{margin:0 10px;float:left;padding:0}.top-bar .widget_nav_menu li:first-child{margin-left:0}.top-bar .widget_nav_menu li:last-child{margin-right:0}.top-bar .widget_nav_menu li ul{display:none}.top-bar .widget_nav_menu>div>ul{display:inline-block;vertical-align:top}.xena-back-to-top,.xena-back-to-top:visited{font-size:48px;border-radius:3px;position:fixed;bottom:30px;right:30px;line-height:40px;width:40px;text-align:center;z-index:10;transition:opacity .3s ease-in-out}.xena-back-to-top .screen-reader-text{left:0;margin:0}.cat-links:before,.comments-link:before,.dropdown-menu-toggle:before,.menu-toggle:before,.nav-next .next:before,.nav-previous .prev:before,.search-item a:before,.tags-links:before,.xena-back-to-top:before{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;speak:none}.cat-links:before,.comments-link:before,.nav-next .next:before,.nav-previous .prev:before,.tags-links:before{opacity:.7}.xena-icon{display:inline-flex;align-self:center}.xena-icon svg{height:1em;width:1em;top:.125em;position:relative;fill:currentColor}.close-search .icon-search svg:nth-child(1),.icon-menu-bars svg:nth-child(2),.icon-search svg:nth-child(2),.toggled .icon-menu-bars svg:nth-child(1){display:none}.close-search .icon-search svg:nth-child(2),.toggled .icon-menu-bars svg:nth-child(2){display:block}.entry-meta .xena-icon{margin-right:.6em;opacity:.7}.dropdown-hover .children .dropdown-menu-toggle .xena-icon svg,.dropdown-hover .inside-left-sidebar .dropdown-menu-toggle .xena-icon svg,.dropdown-hover .sub-menu .dropdown-menu-toggle .xena-icon svg,.dropdown-hover.both-left .inside-right-sidebar .dropdown-menu-toggle .xena-icon svg,.nav-next .xena-icon svg{transform:rotate(-90deg);transform-origin:center}.dropdown-hover .inside-right-sidebar .dropdown-menu-toggle .xena-icon svg,.dropdown-hover .sub-menu-left:not(.toggled) ul ul .dropdown-menu-toggle .xena-icon svg,.dropdown-hover.both-right .inside-left-sidebar .dropdown-menu-toggle .xena-icon svg,.nav-previous .xena-icon svg{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.dropdown-click .sfHover>a>.dropdown-menu-toggle>.xena-icon svg,.xena-back-to-top .xena-icon svg,nav.toggled .sfHover>a>.dropdown-menu-toggle>.xena-icon svg{transform:rotate(180deg)}nav.toggled .sub-menu .dropdown-menu-toggle .xena-icon svg{transform:rotate(0)}.xena .entry-meta,.xena .entry-title,.xena .page-title,.xena .taxonomy-description{text-align:center}.woocommerce.xena .entry-title{text-align:left}.xena footer.entry-meta{text-align:left}.xena .cat-links{text-transform:uppercase}body{background-color:#fff;color:#444}.infinite-scroll .paging-navigation,.infinite-scroll.neverending .site-footer{display:none}.infinity-end.neverending .site-footer{display:block}.so-panel.widget{padding:0}#mc_embed_signup .clear{display:block;height:auto;visibility:visible;width:auto}.container.grid-container{width:auto}button.menu-toggle{background-color:transparent;width:100%;border:0;text-align:center}button.menu-toggle:active,button.menu-toggle:focus,button.menu-toggle:hover{background-color:transparent}.menu-toggle .mobile-menu{padding-left:3px}.menu-toggle .xena-icon+.mobile-menu{padding-left:9px}.menu-toggle .mobile-menu:empty{display:none}.nav-search-enabled .main-navigation .menu-toggle{text-align:left}.mobile-bar-items{display:none;position:absolute;right:0;top:0;z-index:21;list-style-type:none}.mobile-bar-items a{display:inline-block}nav.toggled ul ul.sub-menu{width:100%}.dropdown-hover .main-navigation.toggled ul li.sfHover>ul,.dropdown-hover .main-navigation.toggled ul li:hover>ul{transition-delay:0s}.toggled .menu-item-has-children .dropdown-menu-toggle{padding-left:20px}.main-navigation.toggled ul ul{transition:0s;visibility:hidden}.main-navigation.toggled .main-nav>ul{display:block}.main-navigation.toggled .main-nav ul ul.toggled-on{position:relative;top:0;left:auto!important;right:auto!important;width:100%;pointer-events:auto;height:auto;opacity:1;display:block;visibility:visible}.main-navigation.toggled .main-nav li{float:none;clear:both;display:block!important;text-align:left!important}.main-navigation.toggled .main-nav li.hide-on-mobile{display:none!important}.main-navigation.toggled .sfHover>a .dropdown-menu-toggle:before{content:"\f106"}.main-navigation.toggled .menu-item-has-children .dropdown-menu-toggle{float:right}.main-navigation.toggled .menu li.search-item{display:none!important}.main-navigation.toggled .sf-menu>li.menu-item-float-right{float:none!important;display:inline-block!important}@media (max-width:768px){a,body,button,input,select,textarea{-webkit-transition:all 0s ease-in-out;-moz-transition:all 0s ease-in-out;-o-transition:all 0s ease-in-out;transition:all 0s ease-in-out}.top-bar.top-bar-align-left,.top-bar.top-bar-align-right{text-align:center}.top-bar .widget{float:none!important;margin:0 10px!important}.top-bar .widget_nav_menu li{float:none;display:inline-block;padding:5px 0}.inside-header>:not(:last-child):not(.main-navigation){margin-bottom:20px}.header-aligned-right .site-header,.site-header{text-align:center}.header-widget{float:none;max-width:100%;text-align:center}.content-area,.inside-footer-widgets>div,.sidebar{float:none;width:100%;left:0;right:0}.site-main{margin-left:0!important;margin-right:0!important}body:not(.no-sidebar) .site-main{margin-bottom:0!important}.one-container .sidebar{margin-top:40px}.separate-containers #left-sidebar+#right-sidebar .inside-right-sidebar{margin-top:0}.both-left.separate-containers .inside-left-sidebar,.both-left.separate-containers .inside-right-sidebar,.both-right.separate-containers .inside-left-sidebar,.both-right.separate-containers .inside-right-sidebar{margin-right:0;margin-left:0}.alignleft,.alignright{float:none;display:block;margin-left:auto;margin-right:auto}.post-image-aligned-left .post-image,.post-image-aligned-right .post-image{float:none;margin:2em 0;text-align:center}.comment .children{padding-left:10px;margin-left:0}.edd_download{display:block;float:none!important;margin-bottom:1.5em;width:100%!important}.entry-meta{font-size:inherit}.entry-meta a{line-height:1.8em}.site-info{padding-left:10px;padding-right:10px}.site-info{text-align:center}.copyright-bar{float:none!important;text-align:center!important}.footer-bar{float:none!important;text-align:center!important;margin-bottom:20px}.footer-bar .widget_nav_menu li{float:none;display:inline-block;padding:5px 0}.inside-footer-widgets>div:not(:last-child){margin-bottom:40px}.site-footer .footer-widgets .footer-widgets-container .inside-footer-widgets{margin:0}.site-footer .footer-widgets .footer-widgets-container .inner-padding{padding:0}.search-form input[type=submit]{margin-top:1em}.dropdown-hover .main-navigation:not(.toggled) ul li.sfHover>ul,.dropdown-hover .main-navigation:not(.toggled) ul li:hover>ul{box-shadow:none}}p#breadcrumbs{font-size:12px}
+body{color:#303030;}a, a:visited{color:#1e72bd;}a:hover, a:focus, a:active{color:#683f57;}body .grid-container{max-width:1200px;}.wp-block-group__inner-container{max-width:1200px;margin-left:auto;margin-right:auto;}body, button, input, select, textarea{font-family:"Open Sans", sans-serif;}body{line-height:2;}.entry-content > [class*="wp-block-"]:not(:last-child){margin-bottom:1.5em;}.main-navigation .main-nav ul ul li a{font-size:14px;}@media (max-width:768px){.main-title{font-size:30px;}h1{font-size:34px;}h2{font-size:32px;}}.top-bar{background-color:rgba(30,114,189,0.1);}.main-title a,.main-title a:hover,.main-title a:visited{color:#303030;}.main-navigation .main-nav ul li a,.menu-toggle{color:#303030;}.main-navigation .main-nav ul li:hover > a,.main-navigation .main-nav ul li:focus > a, .main-navigation .main-nav ul li.sfHover > a{color:#1e72bd;}button.menu-toggle:hover,button.menu-toggle:focus,.main-navigation .mobile-bar-items a,.main-navigation .mobile-bar-items a:hover,.main-navigation .mobile-bar-items a:focus{color:#303030;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#1e72bd;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a{color:#444444;}.main-navigation ul ul{background-color:#ffffff;}.entry-title a,.entry-title a:visited{color:#333333;}.entry-title a:hover{color:#444444;}.entry-meta{color:#595959;}h1{color:#303030;}h2{color:#303030;}h3{color:#303030;}h4{color:#303030;}h5{color:#303030;}h6{color:#303030;}.sidebar .widget .widget-title{color:#303030;}.footer-widgets{background-color:rgba(30,114,189,0.1);}.footer-widgets a,.footer-widgets a:visited{color:#1e72bd;}.footer-widgets a:hover{color:#683f57;}.footer-widgets .widget-title{color:#303030;}.site-info{color:#303030;}.site-info a,.site-info a:visited{color:#1e72bd;}.site-info a:hover{color:#683f57;}.footer-bar .widget_nav_menu .current-menu-item a{color:#683f57;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{border-color:#1e72bd;}button,
+html input[type="button"],input[type="reset"],
+input[type="submit"],a.button,a.button:visited{color:#ffffff;background-color:#1e72bd;}button:hover,
+html input[type="button"]:hover,input[type="reset"]:hover,
+input[type="submit"]:hover,a.button:hover{color:#ffffff;background-color:#683f57;}.xena-back-to-top,.xena-back-to-top:visited{background-color:rgba( 0,0,0,0 );color:#444444;}.xena-back-to-top:hover,.xena-back-to-top:focus{background-color:rgba( 0,0,0,0 );}.xena-icon.icon-tags svg,.xena-icon.icon-categories svg,.xena-icon.icon-comments svg{fill:#1e72bd;}hr.xena-divider{background-color:rgba(30,114,189,0.25);}.no-sidebar .entry-content .alignfull{margin-left:calc(-100vw / 2 + 100% / 2);margin-right:calc(-100vw / 2 + 100% / 2);}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px);}.container.grid-container{max-width:1280px;}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:20px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-header, .wp-block-group__inner-container{padding:30px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}}.one-container .sidebar .widget{padding:0px;}/* End cached CSS */@media (max-width:768px){.main-navigation .menu-toggle,.main-navigation .mobile-bar-items,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav{display:none;}[class*="nav-float-"] .site-header .inside-header > *{float:none;clear:both;}}button.menu-toggle:before,.search-item a:before,.dropdown-menu-toggle:before,.cat-links:before,.tags-links:before,.comments-link:before,.nav-previous .prev:before,.nav-next .next:before,.xena-back-to-top:before {display: none;}
+</style>
+<link rel="icon" href="https://otw.ph/favicon/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://otw.ph/favicon/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://otw.ph/favicon/ropped-favicon-180x180.png" />
+</head>
+<body class="post-template-default single single-post postid-1052 single-format-standard wp-embed-responsive no-sidebar nav-float-right fluid-header one-container active-footer-widgets-1 header-aligned-left dropdown-hover featured-image-active xena post-image-aligned-left post-image-below-header" itemtype="https://schema.org/Blog" itemscope>
+<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>		<header id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope>
+			<div class="inside-header grid-container grid-parent">
+				<div class="site-branding">
+					<p class="main-title" itemprop="headline">
+				<a href="https://otw.ph/" rel="home">
+					kaalaman
+				</a>
+			</p>
+					<p class="site-description" itemprop="description">impormasyon</p>
+				</div>		<nav id="site-navigation" class="main-navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container grid-parent">
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="xena-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true" role="img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em">
+						<path d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+					</svg><svg viewBox="0 0 512 512" aria-hidden="true" role="img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em">
+						<path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+					</svg></span><span class="mobile-menu">Menu</span>				</button>
+				<div id="primary-menu" class="main-nav"><ul id="menu-main-menu" class=" menu sf-menu"><li id="menu-item-3306" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3306"><a href="https://otw.ph/pagpapahayag/">PAGPAPAHAYAG<span role="presentation" class="dropdown-menu-toggle"><span class="xena-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" role="img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em">
+						<path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" fill-rule="nonzero"/>
+					</svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-3307" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3307"><a href="https://otw.ph/pagpapahayag/linggo-bawat-linggo/">linggo bawat linggo</a></li>
+</ul>
+</li>
+<li id="menu-item-3308" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3308"><a href="https://otw.ph/kalusugan/">Kalusugan</a></li>
+<li id="menu-item-4885" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-4885"><a href="https://otw.ph/kagandahan/">Kagandahan<span role="presentation" class="dropdown-menu-toggle"><span class="xena-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" role="img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em">
+						<path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" fill-rule="nonzero"/>
+					</svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-4888" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4888"><a href="https://otw.ph/kagandahan/kagandahan-at-pampaganda/">Kagandahan at Pampaganda</a></li>
+	<li id="menu-item-4887" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4887"><a href="https://otw.ph/kagandahan/alahas/">Alahas</a></li>
+	<li id="menu-item-4886" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4886"><a href="https://otw.ph/kagandahan/fashion-at-pananamit/">Fashion at Pananamit</a></li>
+</ul>
+</li>
+<li id="menu-item-6511" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-6511"><a href="https://otw.ph/benepisyo/">Benepisyo<span role="presentation" class="dropdown-menu-toggle"><span class="xena-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" role="img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em">
+						<path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" fill-rule="nonzero"/>
+					</svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-6517" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6517"><a href="https://otw.ph/benepisyo/mga-langis-mga-benepisyo-para-sa-balat/">mga langis Mga benepisyo para sa balat</a></li>
+	<li id="menu-item-6516" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6516"><a href="https://otw.ph/benepisyo/mga-buto-benepisyo/">Mga Buto Benepisyo</a></li>
+	<li id="menu-item-6515" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6515"><a href="https://otw.ph/benepisyo/mga-benepisyo-ng-pulse/">Mga benepisyo ng pulse</a></li>
+	<li id="menu-item-6514" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6514"><a href="https://otw.ph/benepisyo/mga-benepisyo-ng-langis/">Mga Benepisyo ng langis</a></li>
+	<li id="menu-item-6513" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6513"><a href="https://otw.ph/benepisyo/mga-benepisyo-ng-damo/">Mga Benepisyo ng damo</a></li>
+	<li id="menu-item-6512" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6512"><a href="https://otw.ph/benepisyo/benepisyo-ng-siryal/">Benepisyo ng siryal</a></li>
+</ul>
+</li>
+</ul></div>			</div>
+		</nav>
+					</div>
+		</header>
+		
+<div id="page" class="hfeed site grid-container container grid-parent">
+		<div id="content" class="site-content">
+<p id="breadcrumbs"><span><span><a href="https://otw.ph/">Bahay</a> » <span><a href="https://otw.ph/wordpress/">Wordpress</a> » <span><a href="https://otw.ph/wordpress/mga-tutorial/">Mga Tutorial</a> » <span class="breadcrumb_last" aria-current="page">32 Lubhang Kapaki-pakinabang na Mga Trick para sa File ng Pag-andar ng WordPress</span></span></span></span></span></p>	<div id="primary" class="content-area grid-parent mobile-grid-100 grid-100 tablet-grid-100">
+		<main id="main" class="site-main">
+			
+<article id="post-1052" class="post-1052 post type-post status-publish format-standard has-post-thumbnail hentry category-mga-tutorial" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+		
+		<header class="entry-header">
+					<div class="entry-meta">
+			<span class="cat-links"><span class="xena-icon icon-categories"><svg viewBox="0 0 512 512" aria-hidden="true" role="img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em">
+						<path d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0 1 43.592 27.907l12.349 26.791A16 16 0 0 0 228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z" fill-rule="nonzero"/>
+					</svg></span><span class="screen-reader-text">Categories </span><a href="https://otw.ph/wordpress/mga-tutorial/" rel="category tag">Mga Tutorial</a></span> 		</div>
+		<h1 class="entry-title" itemprop="headline">32 Lubhang Kapaki-pakinabang na Mga Trick para sa File ng Pag-andar ng WordPress</h1>		</header>
+				<div class="page-header-image-single grid-container grid-parent">
+			<img width="640" height="360" src="https://otw.ph/wp-content/uploads/2018/01/59eae0785f1882d0662b64aeb8ea81be.jpeg" class="attachment-large size-large wp-post-image" alt="" itemprop="image" />		</div>
+		
+		<div class="entry-content" itemprop="text">
+			<img src="" style="float:right;" align="right" /><p>Ang lahat ng mga tema ng WordPress ay may isang malakas na function.php file.  Ang file na ito ay gumaganap bilang isang plugin at nagbibigay-daan sa iyo upang gawin ang maraming mga cool na bagay sa iyong WordPress site.  Sa artikulong ito, ipapakita namin sa iyo ang ilan sa mga pinaka-kapaki-pakinabang na mga trick para sa iyong mga function ng WordPress file. </p>
+<p><img title="Karamihan sa kapaki-pakinabang na mga trick para sa mga function ng WordPress file " src="https://otw.ph/wp-content/uploads/2017/12/a82fa19aa10a243c28ea097d3c566f0e.jpeg" alt="Karamihan sa kapaki-pakinabang na mga trick para sa mga function ng WordPress file " width="550" height="340" class="alignnone size-full wp-image-41177"></p>
+<h4>Ano ang File ng Pag-andar sa WordPress? </h4>
+<p>Ang file ng pag-andar na karaniwang kilala bilang functions.php file ay isang file na WordPress na tema.  Nagmumula ito sa lahat ng mga libre at premium na mga tema ng WordPress. </p>
+<p>Ang layunin ng file na ito ay upang payagan ang mga developer ng tema na tukuyin ang mga tampok at function ng tema.  Gumagana ang file na ito tulad ng isang WordPress plugin at maaaring magamit upang idagdag ang iyong sariling pasadyang mga snippet ng code sa WordPress. </p>
+<p>lugar </p>
+<p>Ngayon ay maaari kang mag-isip kung ano ang pagkakaiba sa pagitan ng isang site-tiyak WordPress plugin at functions.php file?  Alin ang mas mahusay? </p>
+<p>Habang ang mga function.php file ay mas maginhawa, ang isang site-tiyak na plugin ay mas mahusay.  Lamang dahil ito ay independiyenteng ng iyong WordPress tema at gagana nang walang kinalaman sa kung aling tema ang iyong ginagamit. </p>
+<p>Sa kabilang banda, ang file ng function ng tema ay gagana lamang para sa tema na iyon at kung binago mo ang tema, pagkatapos ay kakailanganin mong kopyahin / i-paste ang iyong mga custom na code sa bagong tema. </p>
+<p>Ang pagkakaroon ng sinabi na, narito ang ilang mga lubos na kapaki-pakinabang na mga trick para sa WordPress function na file. </p>
+<h4 id="versionnumber">1. Alisin ang Numero ng Bersyon ng WordPress </h4>
+<p>Dapat mong palaging gamitin ang pinakabagong bersyon ng WordPress.  Gayunpaman, maaari mo pa ring alisin ang numero ng bersyon ng WordPress mula sa iyong site.  Idagdag lamang ang code snippet na ito sa iyong mga function file. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function wpb_remove_version () {
+ bumalik '';
+ }
+ add_filter ('the_generator', 'wpb_remove_version'); </pre>
+<p>Para sa mga detalyadong tagubilin </p>
+<h4 id="customlogo">2. Magdagdag ng Custom Dashboard Logo </h4>
+<p>Nais na puting label ang iyong WordPress admin area?  Ang pagdaragdag ng isang pasadyang logo ng dashboard ay ang unang hakbang sa proseso. </p>
+<p>Una kailangan mong i-upload ang iyong pasadyang logo sa folder ng mga larawan ng iyong tema bilang custom-logo.png.  Siguraduhin na ang iyong pasadyang logo ay may laki na 16 × 16 na pixel. </p>
+<p>Pagkatapos nito, maaari mong idagdag ang code na ito sa file ng mga function ng iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function wpb_custom_logo () {
+ echo ' <style type="text/css"><! [CDATA [
+ #wpadminbar # wp-admin-bar-wp-logo> .ab-item .ab-icon: before {
+ background-image: url ('. get_bloginfo (' stylesheet_directory ').' /images/custom-logo.png)! mahalaga;
+ background-position: 0 0;
+ kulay: rgba (0, 0, 0, 0);
+ }
+ #wpadminbar # wp-admin-bar-wp-logo.hover> .ab-item .ab-icon {
+ background-position: 0 0;
+ }
+ ]]&gt; </style>';
+ }
+ / hook sa administrative header output
+ add_action ('wp_before_admin_bar_render', 'wpb_custom_logo'); </pre>
+<h4 id="adminfooter">3. Baguhin ang Footer sa WordPress Admin Panel </h4>
+<p>Ang footer sa WordPress admin area ay nagpapakita ng mensahe na &#8216;Salamat sa paglikha sa WordPress&#8217;.  Maaari mong baguhin ito sa anumang nais mo sa pamamagitan ng pagdaragdag ng code na ito. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function remove_footer_admin () {
+
+ echo 'Fueled by WordPress |  WordPress Tutorials: site ';
+
+ }
+
+ add_filter ('admin_footer_text', 'remove_footer_admin'); </pre>
+<p>Huwag mag-atubiling baguhin ang teksto at mga link na nais mong idagdag.  Narito ang hitsura nito sa aming site ng pagsubok. </p>
+<p><img title="Custom footer sa WordPress admin area " src="https://otw.ph/wp-content/uploads/2017/12/c53e6c7b97793fb3e5e8025989d761a3.png" alt="Custom footer sa WordPress admin area " width="550" height="247" class="alignnone size-full wp-image-41136"></p>
+<h4 id="dashboardwidgets">4. Magdagdag ng Mga Widget ng Pasadyang Dashboard sa WordPress </h4>
+<p>Marahil ay nakita mo ang mga widget na maraming mga plugin at mga tema idagdag sa WordPress dashboard.  Bilang isang developer ng tema, maaari mong idagdag ang iyong sarili sa pamamagitan ng pag-paste ng sumusunod na code: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">add_action ('wp_dashboard_setup', 'my_custom_dashboard_widgets');
+
+ function my_custom_dashboard_widgets () {
+ global $ wp_meta_boxes;
+
+ wp_add_dashboard_widget ('custom_help_widget', 'Suporta sa Tema', 'custom_dashboard_help');
+ }
+
+ function custom_dashboard_help () {
+ echo ' <p>Maligayang pagdating sa Custom Blog Theme!  Kailangan ng tulong?  Makipag-ugnay sa nag-develop dito. </p>';
+ } </pre>
+<p>Ganito ang hitsura nito: </p>
+<p><img title="Custom na widget ng dashboard sa WordPress " src="https://otw.ph/wp-content/uploads/2017/12/c9abdf66a01f195b0be8087c19a1c068.png" alt="Custom na widget ng dashboard sa WordPress " width="550" height="241" class="alignnone size-full wp-image-41137"></p>
+<p>Para sa mga detalye </p>
+<h4 id="defaultgravatar">5. Baguhin ang Default Gravatar sa WordPress </h4>
+<p>Nakita mo na ba ang default na misteryo na tao avatar sa mga blog?  Madali mong palitan ito sa iyong sariling branded custom avatars.  I-upload lang ang larawan na nais mong gamitin bilang default na avatar at pagkatapos ay idagdag ang code na ito sa iyong mga function file. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">add_filter ('avatar_defaults', 'wpb_new_gravatar');
+ function wpb_new_gravatar ($ avatar_defaults) {
+ $ myavatar = 'http://example.com/wp-content/uploads/2017/01/wpb-default-gravatar.png';
+ $ avatar_defaults [$ myavatar] = "Default Gravatar";
+ bumalik $ avatar_defaults;
+ } </pre>
+<p>Ngayon ay maaari kang magtungo sa <strong>Mga Setting »Usapan </strong>pahina at piliin ang iyong default na avatar. <br /><img title="Pasadyang default na gravatar " src="https://otw.ph/wp-content/uploads/2017/12/d4f7107dbbf4316ce2e9f8c6f30e5b14.png" alt="Pasadyang default na gravatar " width="550" height="368" class="alignnone size-full wp-image-41141"></p>
+<p>Para sa mga detalyadong tagubilin </p>
+<h4 id="dynamiccopyright">6. Petsa ng Dynamic na Copyright sa WordPress Footer </h4>
+<p>Maaari ka lamang magdagdag ng petsa ng copyright sa pamamagitan ng pag-edit ng template ng footer sa iyong tema.  Gayunpaman, hindi ito ipapakita kapag nagsimula ang iyong site at hindi ito awtomatikong mababago sa susunod na taon. </p>
+<p>Maaari mong gamitin ang code na ito upang magdagdag ng isang dynamic na petsa ng copyright sa WordPress footer. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function wpb_copyright () {
+ global $ wpdb;
+ $ copyright_dates = $ wpdb-> get_results ("
+ PUMILI
+ YEAR (min (post_date_gmt)) AS unang petsa,
+ YEAR (max (post_date_gmt)) AS huling petsa
+ MULA
+ $ wpdb-> mga post
+ SAAN
+ post_status = 'publish'
+ ");
+ $ output = '';
+ kung ($ copyright_dates) {
+ $ copyright = "©".  $ copyright_dates [0] -> firstdate;
+ kung ($ copyright_dates [0] -> firstdate! = $ copyright_dates [0] -> lastdate) {
+ $ copyright. = '-'.  $ copyright_dates [0] -> huling petsa;
+ }
+ $ output = $ copyright;
+ }
+ bumalik $ output;
+ } </pre>
+<p>Pagkatapos idagdag ang function na ito, kakailanganin mong buksan ang file footer.php mo at idagdag ang sumusunod na code kung saan mo gustong ipakita ang dynamic na petsa ng copyright: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">
+<?php echo wpb_copyright(); ??></pre>
+<p>Tinitingnan nito ang petsa ng iyong unang post, at ang petsa ng iyong huling post.  Ito pagkatapos ay echos ang mga taon kung saan mo tawag ang function. </p>
+<p>Para sa higit pang mga detalye </p>
+<h4 id="randombackground">7. Random Baguhin ang Kulay ng Background sa WordPress </h4>
+<p>Gusto mo bang sapalarang baguhin ang kulay ng background sa iyong WordPress sa bawat pagbisita at pag-reload ng pahina?  Narito kung paano madaling gawin ito. </p>
+<p>Una kailangan mong idagdag ang code na ito sa file ng mga function ng iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function wpb_bg () {
+ $ rand = array ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', '  b ',' c ',' d ',' e ',' f ');
+ $ rand = '#'. $ rand [rand (0,15)]. $ rand [rand (0,15)]. $ rand [rand (0,15)].
+ $ rand [rand (0,15)]. $ rand [rand (0,15)]. $ rand [rand (0,15)];
+ echo $ color;
+ } </pre>
+<p>Susunod, kakailanganin mong i-edit ang header.php file sa iyong tema.  Hanapin ang <code></code>tag at idagdag ang palitan ito sa linyang ito: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">style = "background-color: <?php wpb_bg();??>">> </pre>
+<p>Maaari mo na ngayong i-save ang iyong mga pagbabago at bisitahin ang iyong website upang makita ito sa pagkilos. </p>
+<p><img title="Random na pagbabago ng background sa WordPress " src="https://otw.ph/wp-content/uploads/2017/12/032be66dc8c17be468173eb3dba2b44f.gif" alt="Random na pagbabago ng background sa WordPress " width="520" height="293" class="alignnone size-full wp-image-41143"></p>
+<p>Para sa higit pang mga detalye at mga alternatibong pamamaraan </p>
+<h4 id="updateurls">8. I-update ang mga URL ng WordPress </h4>
+<p>Kung ang iyong pahina ng pag-login sa WordPress ay nagpapanatili sa pag-refresh o hindi mo ma-access ang admin na lugar, pagkatapos ay kailangan mong i-update ang mga URL ng WordPress. </p>
+<p>Ang isang paraan upang gawin ito ay ang paggamit ng wp-config.php file.  Gayunpaman, kung gagawin mo iyan hindi mo maitatakda ang tamang address sa pahina ng mga setting.  Ang mga patlang ng URL ng URL at Site URL ay mai-lock at hindi mababago. </p>
+<p>Kung gusto mong ayusin ito, dapat mong idagdag ang code na ito sa iyong mga function file. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">update_option ('siteurl', 'http://example.com');
+ update_option ('home', 'http://example.com'); </pre>
+<p>Huwag kalimutan na palitan ang example.com gamit ang iyong sariling domain name. </p>
+<p>Sa sandaling naka-log in ka, maaari kang pumunta sa Mga Setting at itakda ang mga URL doon.  Pagkatapos nito ay dapat mong alisin ang code na iyong idinagdag sa file ng mga pag-andar, kung hindi man ay patuloy itong i-update ang mga URL anumang oras na ma-access ang iyong site. </p>
+<h4 id="additionalimagezies">9. Magdagdag ng Mga Karagdagang Laki ng Imahe sa WordPress </h4>
+<p>Awtomatikong lumilikha ang WordPress ng ilang laki ng imahe kapag nag-upload ka ng isang imahe.  Maaari ka ring lumikha ng mga karagdagang laki ng imahe upang gamitin sa iyong tema.  Idagdag ang code na ito sa file ng mga function ng iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">add_image_size ('sidebar-thumb', 120, 120, true);  / // Hard Crop Mode
+ add_image_size ('homepage-thumb', 220, 180);  / / / Soft Mode ng Pag-crop
+ add_image_size ('singlepost-thumb', 590, 9999);  / Walang limitasyong Taas Mode </pre>
+<p>Lumilikha ang code na ito ng tatlong bagong laki ng imahe na may iba&#8217;t ibang laki.  Huwag mag-atubiling mag-tweak ang code upang matugunan ang iyong sariling mga kinakailangan. </p>
+<p>Maaari kang magpakita ng laki ng imahe sa kahit saan sa iyong tema gamit ang code na ito. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">
+<?php the_post_thumbnail( 'homepage-thumb' ); ??></pre>
+<p>Para sa mga detalyadong tagubilin </p>
+<h4 id="newnavmenus">10. Magdagdag ng mga Bagong Navigation Menu sa Iyong Tema </h4>
+<p>Pinapayagan ng WordPress ang mga developer ng tema na tukuyin ang mga menu ng navigation at pagkatapos ay ipakita ang mga ito.  Idagdag ang code na ito sa file ng mga function ng iyong tema upang tukuyin ang isang bagong lokasyon ng menu sa iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function wpb_custom_new_menu () {
+   register_nav_menu ('my-custom-menu', __ ('My Custom Menu'));
+ }
+ add_action ('init', 'wpb_custom_new_menu'); </pre>
+<p>Maaari mo na ngayong pumunta sa <strong>Hitsura »Mga Menu </strong>at makikita mo ang &#8216;My Custom Menu&#8217; bilang pagpipilian sa lokasyon ng tema. </p>
+<p><img title="Bagong menu ng nabigasyon " src="https://otw.ph/wp-content/uploads/2017/12/03ad488fc584e87e09c2c03f09857555.jpeg" alt="Bagong menu ng nabigasyon " width="520" height="341" class="alignnone size-full wp-image-41148"></p>
+<p>Ngayon ay kailangan mong idagdag ang code na ito sa iyong tema kung saan nais mong ipakita ang navigation menu. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">
+<?php wp_nav_menu( array( 
+    'theme_location' =?>'my-custom-menu',
+     'container_class' => 'custom-menu-class'));
+ ?> </pre>
+<p>Para sa mga detalyadong tagubilin </p>
+<h4 id="authorprofilefields">11. Magdagdag ng Mga Profile Profile ng Mga Patlang </h4>
+<p>Gusto mo bang magdagdag ng mga dagdag na patlang sa iyong mga profile ng may-akda sa WordPress?  Madali mong gawin iyon sa pamamagitan ng pagdaragdag ng code na ito sa iyong mga function file: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function wpb_new_contactmethods ($ contactmethods) {
+ // Magdagdag ng Twitter
+ $ contactmethods ['twitter'] = 'Twitter';
+ // magdagdag ng Facebook
+ $ contactmethods ['facebook'] = 'Facebook';
+
+ bumalik $ contactmethods;
+ }
+ add_filter ('user_contactmethods', 'wpb_new_contactmethods', 10,1); </pre>
+<p>Ang code na ito ay magdaragdag ng mga patlang ng Twitter at Facebook sa mga profile ng user sa WordPress. </p>
+<p><img title="Mga dagdag na field ng profile ng gumagamit sa WordPress " src="https://otw.ph/wp-content/uploads/2017/12/961c12829149b43d70d242831fad1956.png" alt="Mga dagdag na field ng profile ng gumagamit sa WordPress " width="550" height="265" class="alignnone size-full wp-image-41149"></p>
+<p>Maaari mo na ngayong ipakita ang mga patlang na ito sa iyong template ng may-akda tulad nito: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">
+<?php echo $curauth-?>kaba;  ?> </pre>
+<h4 id="widgetreadyareas">12. Pagdaragdag ng Mga Lugar sa Handa ng Widget o Sidebar sa Mga Tema sa WordPress </h4>
+<p>Ito ay isa sa mga pinaka ginagamit at maraming mga developer na alam tungkol dito.  Ngunit nararapat na nasa listahan na ito para sa mga hindi nakakakilala.  Ilagay ang sumusunod na code sa iyong functions.php file: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">// Magrehistro ng Mga Sidebars
+ function custom_sidebars () {
+
+ $ args = array (
+ 'id' => 'custom_sidebar',
+ 'pangalan' => __ ('Custom Widget Area', 'text_domain'),
+ 'paglalarawan' => __ ('Isang pasadyang widget na lugar', 'text_domain'),
+ 'before_title' => ' <h3 class="widget-title">',
+ 'after_title' => ' </h3>',
+ 'before_widget' => ' <aside id="%1$s" class="widget %2$s">',
+ 'after_widget' => ' </aside>',
+ );
+ register_sidebar ($ args);
+
+ }
+ add_action ('widgets_init', 'custom_sidebars'); </pre>
+<p>Maaari mo na ngayong bisitahin <strong>Hitsura »Mga Widget </strong>pahina at makikita mo ang iyong bagong pasadyang widget na lugar. </p>
+<p><img title="Bagong rehistradong widget na lugar sa WordPress " src="https://otw.ph/wp-content/uploads/2017/12/5fb3aa1bfc63920a2b85aa64ba7cd367.png" alt="Bagong rehistradong widget na lugar sa WordPress " width="550" height="305" class="alignnone size-full wp-image-41150"></p>
+<p>Upang maipakita ang sidebar o widget na handa na lugar sa iyong tema idagdag ang code na ito: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('custom_sidebar') ) : ??><?php endif; ??></pre>
+<h4 id="manipulaterssfeeds">13. Manipulahin ang RSS Feed Footer </h4>
+<p>Nakakita ka na ng mga blog na nagdadagdag ng kanilang patalastas sa kanilang mga RSS Feed sa ibaba ng bawat post.  Maaari mong maisagawa iyan nang madali gamit ang isang simpleng pag-andar.  Ilagay ang sumusunod na code: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function site_postrss ($ content) {
+ kung (is_feed ()) {
+ $ content = 'Ang post na ito ay isinulat ni Syed Balkhi'. $ nilalaman. 'Tingnan ang site';
+ }
+ bumalik $ nilalaman;
+ }
+ add_filter ('the_excerpt_rss', 'site_postrss');
+ add_filter ('the_content', 'site_postrss'); </pre>
+<p>Para sa karagdagang impormasyon </p>
+<h4 id="featuresimagesinrss">14. Magdagdag ng Mga Itinatampok na Larawan sa Mga RSS Feed </h4>
+<p>Ang post thumbnail o mga tampok na imahe ay karaniwang ipinapakita lamang sa loob ng iyong disenyo ng site.  Madali mong mapalawak ang pag-andar na iyon sa iyong RSS feed na may simpleng pag-andar sa iyong RSS feed. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function rss_post_thumbnail ($ content) {
+ global $ post;
+ kung (has_post_thumbnail ($ post-> ID)) {
+ $ content = ' <p>'.  get_the_post_thumbnail ($ post-> ID).
+ ' </p>'.  get_the_content ();
+ }
+ bumalik $ nilalaman;
+ }
+ add_filter ('the_excerpt_rss', 'rss_post_thumbnail');
+ add_filter ('the_content_feed', 'rss_post_thumbnail'); </pre>
+<h4 id="loginerrors">15. Itago ang Mga Error sa Pag-login sa WordPress </h4>
+<p>Ang mga error sa pag-login sa WordPress ay maaaring gamitin ng mga hacker upang hulaan kung ipinasok nila ang maling username o password.  Sa pamamagitan ng pagtatago ng mga error sa pag-login sa WordPress maaari mong gawin ang iyong login area ng isang bit mas ligtas. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function na no_wordpress_errors () {
+   bumalik 'May mali!';
+ }
+ add_filter ('login_errors', 'no_wordpress_errors'); </pre>
+<p>Ngayon ay nakakakita ang mga gumagamit ng pangkaraniwang mensahe kapag ipinasok nila ang hindi tamang username o password. </p>
+<p><img title="Walang mga pahiwatig sa pag-login sa WordPress " src="https://otw.ph/wp-content/uploads/2017/12/9c1bccf657ca216c238e8e55a206fcff.png" alt="Walang mga pahiwatig sa pag-login sa WordPress " width="520" height="350" class="alignnone size-full wp-image-41152"></p>
+<p>Para sa karagdagang impormasyon </p>
+<h4 id="disableloginbyemail">16. Huwag paganahin ang Pag-login sa pamamagitan ng Email sa WordPress </h4>
+<p>Pinapayagan ng WordPress ang mga user na mag-login gamit ang username o email address.  Madali mong hindi paganahin ang pag-login sa pamamagitan ng email sa WordPress sa pamamagitan ng pagdaragdag ng code na ito sa iyong mga function file. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">remove_filter ('authenticate', 'wp_authenticate_email_password', 20); </pre>
+<h4 id="disablesearch">17. Huwag paganahin ang Feature ng Paghahanap sa WordPress </h4>
+<p>Kung nais mong huwag paganahin ang tampok sa paghahanap sa iyong WordPress site, pagkatapos ay idagdag lamang ang code na ito sa iyong mga function file. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function fb_filter_query ($ query, $ error = true) {
+
+ kung (is_search ()) {
+ $ query-> is_search = false;
+ $ query-> query_vars [s] = false;
+ $ query-> query [s] = false;
+
+ // sa error
+ kung ($ error == totoo)
+ $ query-> is_404 = true;
+ }
+ }
+
+ add_action ('parse_query', 'fb_filter_query');
+ add_filter ('get_search_form', create_function ('$ a', "return null;")); </pre>
+<p>Para sa karagdagang impormasyon </p>
+<h4 id="delayrssfeeds">18. Pagkaantala ng Mga Post sa RSS Feed </h4>
+<p>Minsan maaari kang magtapos ng isang pagkakamali sa balarila o spelling sa iyong artikulo.  Ang pagkakamali ay napupunta nang live at ibinahagi sa iyong mga tagasuskribi sa RSS feed.  Kung mayroon kang mga subscription sa email sa iyong blog na WordPress, ang mga tagasuskribi ay makakakuha din nito. </p>
+<p>Idagdag lamang ang code na ito sa file ng mga function ng iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function publish_later_on_feed ($ where) {
+
+ global $ wpdb;
+
+ kung (is_feed ()) {
+ // timestamp sa WP-format
+ $ ngayon = gmdate ('Y-m-d H: i: s');
+
+ // halaga para sa paghihintay;  + device
+ $ wait = '10';  // integer
+
+ // http://dev.mysql.com/doc/refman/5.0/en/date-and-time-functions.html#function_timestampdiff
+ $ device = 'MINUTE';  // MINUTE, LAMANG, ARAW, LINGGO, BUWAN, TAON
+
+ / / magdagdag ng SQL-sytax sa default $ kung saan
+ $ where. = "AT TIMESTAMPDIFF ($ device, $ wpdb-> posts.post_date_gmt, '$ now')> $ wait";
+ }
+ bumalik $ kung saan;
+ }
+
+ add_filter ('posts_where', 'publish_later_on_feed'); </pre>
+<p>Sa ganitong code na ginamit namin ang 10 minuto bilang $ wait o delay time.  Huwag mag-atubiling baguhin ito sa anumang bilang ng mga minuto na gusto mo. </p>
+<p>Para sa paraan ng plugin at higit pang impormasyon </p>
+<h4 id="readmoretext">19. Baguhin Magbasa Nang Higit Pa Teksto para sa mga sipi sa WordPress </h4>
+<p>Gusto mo bang baguhin ang teksto na lilitaw pagkatapos ng sipi?  Idagdag lamang ang code na ito sa file ng mga function ng iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function modify_read_more_link () {
+     ibalik ang 'Iyong Basahin ang Higit Pa Link Text';
+ }
+ add_filter ('the_content_more_link', 'modify_read_more_link'); </pre>
+<h4 id="disablerssfeeds">20. Huwag paganahin ang RSS Feed sa WordPress </h4>
+<p>Hindi lahat ng mga website ay nangangailangan ng mga RSS feed.  Kung nais mong huwag paganahin ang mga RSS feed sa iyong WordPress site, pagkatapos ay idagdag ang code na ito sa file ng mga function ng iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function fb_disable_feed () {
+ wp_die (__ ('Walang available na feed, pakibisita ang aming homepage!'));
+ }
+
+ add_action ('do_feed', 'fb_disable_feed', 1);
+ add_action ('do_feed_rdf', 'fb_disable_feed', 1);
+ add_action ('do_feed_rss', 'fb_disable_feed', 1);
+ add_action ('do_feed_rss2', 'fb_disable_feed', 1);
+ add_action ('do_feed_atom', 'fb_disable_feed', 1); </pre>
+<p>Para sa isang paraan ng plugin at higit pang impormasyon </p>
+<h4 id="excerptlength">21. Palitan ang Excerpt Length sa WordPress </h4>
+<p>Nililimitahan ng WordPress ang mga haba ng sipi sa 55 salita.  Kung kailangan mong baguhin iyon, maaari mong idagdag ang code na ito sa iyong mga function file. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">functionnew_excerpt_length ($ haba) {
+ bumalik ang 100;
+ }
+ add_filter ('excerpt_length', 'new_excerpt_length'); </pre>
+<p>Baguhin ang 100 sa bilang ng mga salita na nais mong ipakita sa mga sipi. </p>
+<p>Para sa kahaliling paraan, maaari mong tingnan ang aming gabay kung paano ipasadya ang mga sipi ng WordPress (walang kinakailangang coding). </p>
+<h4 id="adminuserftp">22. Magdagdag ng Admin User sa WordPress </h4>
+<p>Kung nakalimutan mo ang iyong password sa WordPress at email, maaari kang magdagdag ng admin user sa pamamagitan ng pagdaragdag ng code na ito sa file ng mga function ng iyong tema gamit ang isang FTP client. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function wpb_admin_account () {
+ $ user = 'Username';
+ $ pass = 'Password';
+ $ email = 'email@domain.com';
+ kung (! username_exists ($ user) &&! email_exists ($ email)) {
+ $ user_id = wp_create_user ($ user, $ pass, $ email);
+ $ user = bagong WP_User ($ user_id);
+ $ user-> set_role ('administrator');
+ }}
+ add_action ('init', 'wpb_admin_account'); </pre>
+<p>Huwag kalimutang punan ang username, password, at mga field ng email.  Sa sandaling mag-login ka sa iyong WordPress site, huwag kalimutang tanggalin ang code mula sa iyong mga function file. </p>
+<p>Para sa higit pa sa paksang ito, tingnan ang aming tutorial kung paano magdagdag ng isang gumagamit ng admin sa WordPress gamit ang FTP. </p>
+<h4 id="removewelcomepanel">23. Alisin ang Welcome Panel mula sa WordPress Dashboard </h4>
+<p>Ang welcome panel ay isang meta box na idinagdag sa dashboard screen ng WordPress admin area.  Nagbibigay ito ng mga kapaki-pakinabang na mga shortcut para sa mga nagsisimula upang gawin ang mga bagay sa kanilang bagong WordPress site. </p>
+<p><img title="Maligayang pagdating panel sa WordPress admin dashboard " src="https://otw.ph/wp-content/uploads/2017/12/637c13abfcbc38a0a6f7bbfec1bb7ba8.png" alt="Maligayang pagdating panel sa WordPress admin dashboard " width="520" height="309" class="alignnone size-full wp-image-41154"></p>
+<p>Maaari mong madaling itago sa pamamagitan ng pagdaragdag ng code na ito sa iyong mga function file. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">remove_action ('welcome_panel', 'wp_welcome_panel'); </pre>
+<p>Para sa iba pang mga pamamaraan at higit pang mga detalye tingnan ang aming gabay kung paano tanggalin ang welcome panel sa WordPress dashboard. </p>
+<h4 id="totalusers">24. Ipakita ang Kabuuang Bilang ng mga Rehistradong Gumagamit sa WordPress </h4>
+<p>Nais mo bang ipakita ang kabuuang bilang ng mga nakarehistrong user sa iyong WordPress site?  Idagdag lamang ang code na ito sa file ng mga function ng iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">// Function upang maibalik ang bilang ng gumagamit
+ function wpb_user_count () {
+ $ usercount = count_users ();
+ $ result = $ usercount ['total_users'];
+ ibalik ang resulta ng $;
+ }
+ // Paglikha ng shortcode upang ipakita ang bilang ng gumagamit
+ add_shortcode ('user_count', 'wpb_user_count'); </pre>
+<p>Lumilikha ang code na ito ng isang shortcode na nagbibigay-daan sa iyo upang ipakita ang kabuuang bilang ng mga nakarehistrong user sa iyong site.  Ngayon kailangan mo lang idagdag ang shortcode na ito sa [user_count] iyong post o pahina kung saan mo gustong ipakita ang kabuuang bilang ng mga gumagamit. </p>
+<p>Para sa higit pang impormasyon at isang paraan ng plugin </p>
+<h4 id="excludecatsrss">25. Ibukod ang Mga Tukoy na Kategorya mula sa RSS Feed </h4>
+<p>Gusto mo bang ibukod ang mga tukoy na kategorya mula sa iyong WordPress RSS feed?  Idagdag ang code na ito sa file ng mga function ng iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function exclude_category ($ query) {
+ kung ($ query-> is_feed) {
+ $ query-> set ('cat', '-5, -2, -3');
+ }
+ bumalik $ query;
+ }
+ add_filter ('pre_get_posts', 'exclude_category'); </pre>
+<h4 id="shortcodewidgets">26. Paganahin ang Shortcode Execution sa Mga Widget ng Teksto </h4>
+<p>Bilang default, hindi pinapatupad ng WordPress ang mga shortcode sa loob ng mga widget ng teksto.  Upang ayusin ito kailangan mong idagdag lamang ang code na ito sa file ng mga function ng iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">// Paganahin ang mga shortcode sa mga widget ng teksto
+ add_filter ('widget_text', 'do_shortcode'); </pre>
+<p>Para sa isang kahaliling paraan at higit pang impormasyon, tingnan ang aming gabay sa kung paano gumamit ng mga shortcode sa mga sidebar widgets ng WordPress. </p>
+<h4 id="oddevenposts">27. Magdagdag ng mga Odd at Even CSS Classes sa WordPress Posts </h4>
+<p>Maaaring nakita mo ang mga tema ng WordPress gamit ang isang lumang o kahit na klase para sa mga komento ng WordPress.  Tinutulungan nito ang mga user na maisalarawan kung saan nagtatapos ang isang komento at nagsisimula ang susunod. </p>
+<p>Maaari mong gamitin ang parehong pamamaraan para sa iyong mga post sa WordPress.  Mukhang aesthetically kasiya-siya at tumutulong sa mga gumagamit ng mabilis na i-scan ang mga pahina na may maraming nilalaman.  Idagdag lamang ang code na ito sa file ng mga function ng iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function oddeven_post_class ($ classes) {
+    global $ current_class;
+    $ klase [] = $ current_class;
+    $ current_class = ($ current_class == 'odd')?  'kahit': 'kakaiba';
+    bumalik $ klase;
+ }
+ add_filter ('post_class', 'oddeven_post_class');
+ global $ current_class;
+ $ current_class = 'odd'; </pre>
+<p>Ang code na ito ay nagdaragdag lamang ng isang kakaiba o kahit na klase sa mga post sa WordPress.  Maaari ka na ngayong magdagdag ng custom na CSS upang estilo ito nang magkakaiba.  Narito ang sample code upang matulungan kang makapagsimula. </p>
+<pre class="brush: css; title: ; notranslate" title=" ">.even {
+ background: # f0f8ff;
+ }
+ .odd {
+  background: # f4f4fb;
+ } </pre>
+<p>Ang resulta ay magiging ganito: </p>
+<p><img title="Mga kahaliling kulay na ginagamit para sa mga post ng WordPress gamit ang kakaiba at kahit na mga klase sa CSS " src="https://otw.ph/wp-content/uploads/2017/12/afba7e20f7494d5bd263f7a25dcf8898.jpeg" alt="Mga kahaliling kulay na ginagamit para sa mga post ng WordPress gamit ang kakaiba at kahit na mga klase sa CSS " width="520" height="316" class="alignnone size-full wp-image-41166"></p>
+<p>Kailangan mo ng mas detalyadong tagubilin?  Tingnan ang aming tutorial kung paano magdagdag ng kakaiba / kahit klase sa iyong post sa mga tema ng WordPress. </p>
+<h4 id="addfiletypes">28. Magdagdag ng Mga Karagdagang Mga Uri ng File upang ma-upload sa WordPress </h4>
+<p>Bilang default, pinapayagan ka ng WordPress na mag-upload ng limitadong bilang ng mga karaniwang ginagamit na mga uri ng file.  Gayunpaman, maaari mong i-extend ito upang payagan ang iba pang mga uri ng file.  Idagdag ang code na ito sa file ng mga function ng iyong tema: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function my_myme_types ($ mime_types) {
+     $ mime_types ['svg'] = 'image / svg + xml';  // Pagdaragdag ng extension ng svg
+     $ mime_types ['psd'] = 'image / vnd.adobe.photoshop';  // Pagdaragdag ng mga file sa Photoshop
+     ibalik ang $ mime_types;
+ }
+ add_filter ('upload_mimes', 'my_myme_types', 1, 1); </pre>
+<p>Pinapayagan ka ng code na ito na mag-upload ng mga file ng SVG at PSD sa WordPress.  Kakailanganin mo ang Google upang malaman ang mga uri ng mime para sa mga uri ng file na nais mong payagan at pagkatapos ay gamitin ito sa code. </p>
+<p>Para sa higit pa sa paksang ito, tingnan ang aming tutorial kung paano magdagdag ng mga karagdagang uri ng file na mai-upload sa WordPress. </p>
+<h4 id="removeimagelinks">29. Alisin ang Default na Mga Link ng Imahe sa WordPress </h4>
+<p>Sa pamamagitan ng default, kapag nag-uplaod ka ng isang imahe sa WordPress awtomatiko itong naka-link sa file ng imahe o pahina ng kalakip.  Kung ang mga gumagamit ay mag-click sa larawan sila ay dadalhin sa isang bagong pahina na malayo sa iyong post. </p>
+<p>Narito kung paano madali mong maiiwasan ang WordPress mula sa awtomatikong pag-link ng mga pag-upload ng imahe.  Ang kailangan mo lang gawin ay idagdag ang snippet ng code na ito sa iyong mga function file: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function wpb_imagelink_setup () {
+ $ image_set = get_option ('image_default_link_type');
+
+ kung ($ image_set! == 'none') {
+ update_option ('image_default_link_type', 'none');
+ }
+ }
+ add_action ('admin_init', 'wpb_imagelink_setup', 10); </pre>
+<p>Ngayon kapag nag-upload ka ng isang bagong imahe sa WordPress, hindi ito awtomatikong mai-link.  Maaari mo pa ring i-link ito sa pahina ng file o attachment kung gusto mo. </p>
+<p><img title="Huwag paganahin ang mga default na mga link ng imahe sa WordPress " src="https://otw.ph/wp-content/uploads/2017/12/9ef239fe5e29eedd33df6dbfad1be694.png" alt="Huwag paganahin ang mga default na mga link ng imahe sa WordPress " width="550" height="308" class="alignnone size-full wp-image-41167"></p>
+<p>Maaari mong tingnan ang aming tutorial kung paano alisin ang mga default na mga link ng imahe sa WordPress para sa isang alternatibong paraan ng plugin at higit pang impormasyon. </p>
+<h4 id="authorinfobox">30. Magdagdag ng isang Kahon ng Impormasyon ng May-akda sa Mga Post sa WordPress </h4>
+<p>Kung nagpapatakbo ka ng isang multi-site ng may-akda at nais na ipakita ang mga bios ng may-akda sa dulo ng iyong post, maaari mong subukan ang paraan na ito.  Magsimula sa pamamagitan ng pagdaragdag ng code na ito sa iyong mga function na file: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function wpb_author_info_box ($ content) {
+
+ global $ post;
+
+ / Detect kung ito ay isang solong post na may isang may-akda ng post
+ kung (is_single () && isset ($ post-> post_author)) {
+
+ // Kumuha ng display name ng may-akda
+ $ display_name = get_the_author_meta ('display_name', $ post-> post_author);
+
+ // Kung ang pangalan ng display ay hindi magagamit pagkatapos ay gamitin ang palayaw bilang display name
+ kung (walang laman ($ display_name))
+ $ display_name = get_the_author_meta ('palayaw', $ post-> post_author);
+
+ // Kumuha ng biographical na impormasyon o paglalarawan ng may-akda
+ $ user_description = get_the_author_meta ('user_description', $ post-> post_author);
+
+ // Kumuha ng URL ng website ng may-akda
+ $ user_website = get_the_author_meta ('url', $ post-> post_author);
+
+ // Kumuha ng link sa pahina ng archive ng may-akda
+ $ user_posts = get_author_posts_url (get_the_author_meta ('ID', $ post-> post_author));
+ 
+ kung (! walang laman ($ display_name))
+
+ $ author_details = ' <p class="author_name">Tungkol sa '.  $ display_name.  ' </p>';
+
+ kung (! walang laman ($ user_description))
+ // Tagasulat ng avatar at bio
+
+ $ author_details. = ' <p class="author_details">'.  get_avatar (get_the_author_meta ('user_email'), 90).  nl2br ($ user_description).  ' </p>';
+
+ $ author_details. = ' <p class="author_links">Tingnan ang lahat ng post sa pamamagitan ng '.  $ display_name.  '';
+
+ / / Suriin kung ang may-akda ay may isang website sa kanilang profile
+ kung (! walang laman ($ user_website)) {
+
+ // Ipakita ang link ng website ng may-akda
+ $ author_details. = '|  Website </p>';
+
+ } else {
+ // kung walang website ng may-akda pagkatapos ay isara lang ang talata
+ $ author_details. = '';
+ }
+
+ / / Ipasa ang lahat ng impormasyong ito upang mag-post ng nilalaman
+ $ content = $ content.  ' <footer class="author_bio_section">'.  $ author_details.  ' </footer>';
+ }
+ bumalik $ nilalaman;
+ }
+
+ // Idagdag ang aming function sa post na nilalaman ng filter
+ add_action ('the_content', 'wpb_author_info_box');
+
+ / / Pahintulutan ang HTML sa seksyong bio ng may-akda
+ remove_filter ('pre_user_description', 'wp_filter_kses'); </pre>
+<p>Susunod na kakailanganin mong magdagdag ng ilang mga pasadyang CSS upang gawing mas mahusay ang hitsura nito.  Maaari mong gamitin ang halimbawang CSS na ito bilang isang panimulang punto. </p>
+<pre class="brush: css; title: ; notranslate" title=" ">.author_bio_section {
+ background: walang ulit mag-scroll 0 0 # F5F5F5;
+ padding: 15px;
+ hangganan: 1px solid #ccc;
+ }
+
+ .author_name {
+ laki ng font: 16px;
+ font-weight: bold;
+ }
+
+ .author_details img {
+ hangganan: 1px solid # D8D8D8;
+ border-radius: 50%;
+ lumutang pakaliwa;
+ margin: 0 10px 10px 0;
+ } </pre>
+<p>Ganito ang hitsura ng iyong may-akda na kahon: </p>
+<p><img title="Kotse ng may-akda " src="https://otw.ph/wp-content/uploads/2017/12/8a8a5b57fad9272fa92dac12789d0cb0.png" alt="Kotse ng may-akda " width="520" height="189" class="alignnone size-full wp-image-41168"></p>
+<p>Para sa paraan ng plugin at mas detalyadong mga tagubilin, tingnan ang aming artikulo kung paano magdagdag ng isang kahon ng impormasyon ng may-akda sa mga post sa WordPress. </p>
+<h4 id="disablexmlrpc">31. Huwag paganahin ang XML-RPC sa WordPress </h4>
+<p>Ang XML-RPC ay isang paraan na nagpapahintulot sa mga third party na apps na makipag-usap sa iyong WordPress site nang malayuan.  Ito ay maaaring maging sanhi ng mga isyu sa seguridad at maaaring pinagsamantalahan ng mga hacker. </p>
+<p>Idagdag lamang ang code na ito sa iyong mga function file upang i-off ang XML-RPC sa WordPress: </p>
+<pre class="brush: php; title: ; notranslate" title=" ">add_filter ('xmlrpc_enabled', '__return_false'); </pre>
+<p>Maaari mong basahin ang aming artikulo kung paano huwag paganahin ang XML-RPC sa WordPress para sa higit pang impormasyon. </p>
+<h4 id="linkfeaturedimages">32. Awtomatikong I-link ang Mga Itinatampok na Larawan sa Mga Post </h4>
+<p>Kung ang iyong WordPress tema ay hindi awtomatikong mag-link ng mga itinatampok na larawan sa buong mga artikulo, maaari mong subukan ang pamamaraan na ito.  Idagdag lamang ang code na ito sa file ng mga function ng iyong tema. </p>
+<pre class="brush: php; title: ; notranslate" title=" ">function wpb_autolink_featured_images ($ html, $ post_id, $ post_image_id) {
+
+ Kung (! Is_singular ()) {
+
+ $ html = ''.  $ html.  '';
+ bumalik $ html;
+
+ } else {
+
+ bumalik $ html;
+
+ }
+
+ }
+ add_filter ('post_thumbnail_html', 'wpb_autolink_featured_images', 10, 3); </pre>
+<p>Baka gusto mong basahin ang aming artikulo kung paano awtomatikong i-link ang mga itinatampok na larawan sa mga post sa WordPress. </p>
+<p>Iyan na ang lahat para sa ngayon. </p>
+<p>Umaasa kami na ang artikulong ito ay nakatulong sa iyo na malaman ang ilang mga bagong kapaki-pakinabang na mga trick para sa mga function </p>
+		</div>
+					<footer class="entry-meta">
+						<nav id="nav-below" class="post-navigation">
+			<span class="screen-reader-text">Post navigation</span>
+			<div class="nav-previous"><span class="xena-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" role="img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em">
+						<path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" fill-rule="nonzero"/>
+					</svg></span><span class="prev" title="Previous"><a href="https://otw.ph/wordpress/mga-tutorial/paano-ipakita-ang-mga-paglalarawan-ng-kategorya-sa-wordpress/" rel="prev">Paano Ipakita ang Mga Paglalarawan ng Kategorya sa WordPress</a></span></div><div class="nav-next"><span class="xena-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" role="img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em">
+						<path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" fill-rule="nonzero"/>
+					</svg></span><span class="next" title="Next"><a href="https://otw.ph/wordpress/mga-tutorial/paano-ipakita-ang-huling-nai-update-na-petsa-ng-iyong-mga-post-sa-wordpress/" rel="next">Paano Ipakita ang Huling Nai-update na Petsa ng Iyong Mga Post sa WordPress</a></span></div>		</nav>
+					</footer>
+				</div>
+</article>
+		</main>
+	</div>
+	
+	</div>
+</div>
+<div class="site-footer">
+				<div id="footer-widgets" class="site footer-widgets">
+				<div class="footer-widgets-container grid-container grid-parent">
+					<div class="inside-footer-widgets">
+							<div class="footer-widget-1 grid-parent grid-100 tablet-grid-50 mobile-grid-100">
+		<aside id="search-4" class="widget inner-padding widget_search"><form method="get" class="search-form" action="https://otw.ph/search">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="q" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+</aside>	</div>
+						</div>
+				</div>
+			</div>
+					<footer class="site-info" itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info
+							grid-container grid-parent">
+								<div class="copyright-bar">
+									</div>
+			</div>
+		</footer>
+		</div>
+<!--[if lte IE 11]>
+<script src='https://otw.ph/wp-content/themes/xena/js/classList.min.js'></script>
+<![endif]-->
+<script defer src='https://otw.ph/wp-content/themes/xena/js/menu.min.js'></script>
+<script defer src='https://otw.ph/wp-content/themes/xena/js/a11y.min.js'></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12134563-16"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-12134563-16');
+</script>
+</body>
+</html>
